@@ -31,6 +31,28 @@ cd stands for change directory, enables changing of directories in Linux.
 
 4.  LS COMMAND
 
+The command "ls," which stands for "list," is used for displaying the files and folders in a given location. It displays a directory's entire contents.
+
+![ls command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/53006c55-3790-43a7-8862-09828ee26d05)
+
+5.  CAT COMMAND
+
+Concatenate, or cat for short, lists, combines, and writes file contents to the standard output. It is one of the most frequently used Linux commands. 
+
+![cat command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/0695799b-8653-4544-ae68-7ff4c0eead24)
+
+6.  CP COMMAND
+
+The command cp, which stands for copy, can be used copy files or directories from one place to another
+
+![cp command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/1127b8bf-0158-424d-8e53-8e4a9b02b6f3)
+
+7.  MV COMMAND
+
+
+
+
+
 
 
 
