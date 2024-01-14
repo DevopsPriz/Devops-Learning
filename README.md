@@ -132,7 +132,74 @@ The command "diff," which stands for "difference,"is used to compare two files a
 
 TAR COMMAND
 
-The command "tar" stands for "tape archive,"
+The command "tar" stands for "tape archive", archives mutliple files into a TAR file - a common Linux format similar to ZIP, with optional compression.
+
+![tar command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/3b2764c5-da6d-44e3-815a-51f4438c38b8)
+
+FILE PERMISSIONS AND OWNERSHIP
+
+CHMOD COMMAND
+
+CHOOWN COMMAND
+
+JOBS COMMAND
+
+The jobs command will display all the running processes along with their statuses. 
+
+
+
+
+KILL COMMAND
+
+The kill command is used to terminate or send signals to processes manually. It will signal misbehaving applications and instruct them to close their processes. 
+
+![kill command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/88262b7f-5a8f-46e9-a47a-482d89cdea81)
+
+PING COMMAND
+
+The ping command is used to check whether a network or a server is reachable. Additionally, it can be used to troubleshoot various connectivity issues.
+
+For example, ping goggle.com was used to know the connectivity to google and its measured response time.
+
+![ping command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/20d40148-9df6-4a27-a5c1-df324271ccf9)
+
+WGET COMMAND
+
+The wget command is used for downloading files from the internet in Unix-like operating systems, including Linux. It can retrieve files from web servers and FTP servers and supports the HTTP, HTTPS, and FTP protocols.
+
+![wget command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/ef01a925-cc85-4930-a525-3ee16eae6408)
+
+UNAME COMMAND
+
+The uname command will give detailed information about the Linux system and hardware, inclusive of the machine name, operating system, and kernel.
+
+![uname commnad](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/dc2b2155-e59e-4e5f-a968-407e963dfaa3)
+
+TOP COMMAND
+
+In Linux and macOS, as well as other Unix-like operating systems, the top command is a real-time system monitoring tool that offers an interactive, dynamic view of system resource usage.It displays a list of processes and their resource utilization, including CPU, memory, and swap usage. 
+
+Also, the top command helps to identify and terminate processes that may use too many system rseources.
+
+![top command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/6878fff7-6827-4359-9728-7e6818fdce7a)
+
+HISTORY COMMAND
+
+A list of commands that the user has previously typed into the terminal is shown by the history command. It offers a history of recently executed commands, including line numbers, which is helpful for recalling and re-executing commands again. 
+
+![history command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/a106388b-c494-41f4-adc8-f0692a431efd)
+
+MAN COMMAND
+
+The man command
+The name "man" stands for "manual", it is used to display the manual pages (documentation) for various commands, utilities, and system functions.
+
+![man command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/c69b833d-9226-463a-8af5-221b4e3e972b)
+
+ECHO COMMAND
+
+The echo command is used to display text or variables to the terminal. The text or value of a variable is output to the standard output using this simple command.
+
 
 
 
