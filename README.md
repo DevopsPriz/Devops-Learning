@@ -49,8 +49,10 @@ The command cp, which stands for copy, can be used copy files or directories fro
 
 7.  MV COMMAND
 
+Move, which is short for "mv," is used to move and rename directories and files.
+Be aware that: when it is executed, it does not yield an output.
 
-
+![mv command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/18e2b22c-3b02-41aa-b46b-e91f1c4d83cf)
 
 
 
