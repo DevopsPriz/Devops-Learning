@@ -90,7 +90,7 @@ The locate command is used to search for a file or a directory.
 
 FIND COMMAND
 
-This command is used for searching and locating files and directories based on various criteria.
+The find command is used for searching and locating files and directories based on various criteria.
 
 ![find command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/d60ff50c-8da1-404b-b310-99945ddaa19b)
 
@@ -98,11 +98,42 @@ GREP COMMAND
 
 DF COMMAND
 
-This command used to display information about the amount of disk space available and used on file systems.
+The df command used to display information about the amount of disk space available and used on file systems.
 
 The df -h option displays the current directory's system disk space usage in a human-readable output, showing sizes in kilobytes (KB), megabytes (MB), gigabytes (GB), etc.
 
 ![df command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/8025e18f-ccdf-49e4-954b-8d95fc5aa5ab)
+
+DU COMMAND
+
+The du command is used to estimate the disk space used by files and directories.
+
+You can run this command to determine which system part uses storage excessively. 
+
+![du command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/168155ed-ad60-493f-9273-ee2eb890325c)
+
+HEAD COMMAND
+
+The head command is used to display the first lines of a text.
+
+![head command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/5cb0b669-4fc8-459e-8bd9-a214391c3587)
+
+TAIL COMMAND
+
+The tail command is used to display the last part lines of a file.
+
+![tail command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/d78e87cf-9d80-4be5-8f30-27f3d03e2472)
+
+DIFF COMMAND
+
+The command "diff," which stands for "difference,"is used to compare two files and display the differences between them after analyzing them.
+
+![diff command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/ea740352-827b-4fc0-86eb-32adcdf6d3df)
+
+TAR COMMAND
+
+The command "tar" stands for "tape archive,"
+
 
 
 
