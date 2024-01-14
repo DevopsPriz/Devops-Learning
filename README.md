@@ -76,4 +76,33 @@ Files within a directory can be removed using this command.
 
 ![rm commands](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/9c022ff7-e5e3-4b9a-9d10-dabf98323dfc)
 
+TOUCH COMMAND
+
+The touch command allows the user to create an empty file or generate and modify a timestamp in the Linux Command Line.
+
+![touch command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/5d4bf0a8-cbac-4582-997b-97383428700c)
+
+LOCATE COMMAND
+
+The locate command is used to search for a file or a directory.
+
+![locate command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/b8cd04d3-f25b-4756-af38-c68a1e919123)
+
+FIND COMMAND
+
+This command is used for searching and locating files and directories based on various criteria.
+
+![find command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/d60ff50c-8da1-404b-b310-99945ddaa19b)
+
+GREP COMMAND
+
+DF COMMAND
+
+This command used to display information about the amount of disk space available and used on file systems.
+
+The df -h option displays the current directory's system disk space usage in a human-readable output, showing sizes in kilobytes (KB), megabytes (MB), gigabytes (GB), etc.
+
+![df command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/8025e18f-ccdf-49e4-954b-8d95fc5aa5ab)
+
+
 
