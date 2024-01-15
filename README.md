@@ -212,6 +212,22 @@ The hostname command is used for setting or displaying the system's hostname.
 
 ![hostname](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/80efba3d-f4ac-4304-99e1-5cdf16d64cea)
 
+USERADD, USERDEL COMMANDS
 
+Linux is a multi-user system, which means that two or more persons can use it simultaneously. These commands are used to manage user accounts. 
+
+The useradd command is used to create a new user account.
+
+The userdel command is used to delete a user account. 
+
+![useradd command error](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/62b7d7ac-e249-49fd-8b17-7bf20f2dfba8)
+
+APT-GET COMMAND
+
+The apt-get is a command line tool for handling Advanced Package Tool (APT) libraries in Linux. The command allows retrieval of information and bundles from authenticated sources to manage, update, remove, and install software and its dependencies on a system. 
+
+![apt-get command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/b332eda1-1614-43a6-9682-688cb1067ea0)
+
+NANO
 
 
