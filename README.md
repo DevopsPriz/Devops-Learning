@@ -14,8 +14,7 @@ It becomes: sudo apt-get upgrade
 
 The installed packages on your system can be upgraded to the their latest versions using this command.
 
-![Screenshot 2024-01-11 114252](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/a3202f21-df94-4d30-9e2e-ec14a0c8bf2c)
-
+![Sudo command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/ef1dfefd-f30c-4180-8395-00fd2dd4a1f8)
 
 PWD COMMAND
 
@@ -140,14 +139,15 @@ FILE PERMISSIONS AND OWNERSHIP
 
 CHMOD COMMAND
 
+
 CHOOWN COMMAND
+
 
 JOBS COMMAND
 
 The jobs command will display all the running processes along with their statuses. 
 
-
-
+![jobs command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/c9d2911c-0b3b-4abe-b60e-aabd8b8377cd)
 
 KILL COMMAND
 
@@ -258,13 +258,22 @@ The su command, which stands for "substitute user" or "switch user," is used to 
 
 HTOP COMMAND
 
-htop command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. It provides a visual representation of system resources, such as CPU, memory, and processes, in a user-friendly and customizable format.
+htop command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. 
 
-In contrast to top command, htop is a more recent program that has numerous advantages over it. Htop provides visual information regarding processor, memory, and swap utilization in addition to supporting mouse operation and using color in its output. Along with printing complete command lines for processes, htop also provides vertical and horizontal scrolling for processes and command lines, respectively.
+It provides a visual representation of system resources, such as CPU, memory, and processes, in a user-friendly and customizable format.
+
+In contrast to top command, htop is a more recent program that has numerous advantages over it. Htop provides visual information regarding processor, memory, and swap utilization in addition to supporting mouse operation and using color in its output.
+
+Along with printing complete command lines for processes, htop also provides vertical and horizontal scrolling for processes and command lines, respectively.
 
 ![htop command m](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/a55c6a8d-d94d-4234-8138-8df1172ff8ae)
 
+PS COMMAND
 
+The ps command in Unix-like operating systems, such as Linux and macOS, is used to display information regarding the active processes that are running on the system.
 
+It offers a snapshot of the active processes, displaying information about them like PIDs (process IDs), TTYs (type of terminal), TIMEs (running time), and CMDs (commands that start the processes). The virtual files in the /proc file system are where the static results are sourced from.
+
+![ps command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/13891a47-8619-482c-9704-4f6574b5a2a2)
 
 
