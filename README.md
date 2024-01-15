@@ -200,6 +200,17 @@ ECHO COMMAND
 
 The echo command is used to display text or variables to the terminal. The text or value of a variable is output to the standard output using this simple command.
 
+ZIP, UNZIP COMMANNDS
+
+The zip and unzip commands are used for compressing and decompressing files and directories. These commands create and extract ZIP archives files respectively.
+
+![zip, unzip command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/e532c77b-3497-4511-ac53-dfdbb00dce78)
+
+HOSTNAME COMMAND
+
+The hostname command is used for setting or displaying the system's hostname. 
+
+![hostname](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/80efba3d-f4ac-4304-99e1-5cdf16d64cea)
 
 
 
