@@ -228,6 +228,27 @@ The apt-get is a command line tool for handling Advanced Package Tool (APT) libr
 
 ![apt-get command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/b332eda1-1614-43a6-9682-688cb1067ea0)
 
-NANO
+NANO COMMAND
+
+The nano command for Unix-like operating systems, including Linux, used to edit and manage files via a text editor. The command denotes keywords and can work with most languages. 
+
+![nano command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/430c5381-8c58-4793-9e2d-9853aab0ab47)
+
+VI COMMAND
+
+The vi command is a text editor that functions in two different modes: insert and command.
+
+The insert is used to edit and create a text file while, the command performs operations such as saving, opening, copying and pasting a file.
+
+![vi command 2](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/d2cf1753-85ce-4603-b568-3fdd076f6aa2)
+
+ALIAS, UNALIAS COMMAND 
+
+The alias command allows the creation of a shortcut with the same functionality as a command, file name or text. The command execution instructs the shell to replace one string with another. 
+
+However, the unlias command deletes an existing alias
+
+![alias, unalias command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/993afae4-7dfa-4631-afc9-f38c9f8e1ce7)
+
 
 
