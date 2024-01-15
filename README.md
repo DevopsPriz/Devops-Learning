@@ -246,9 +246,25 @@ ALIAS, UNALIAS COMMAND
 
 The alias command allows the creation of a shortcut with the same functionality as a command, file name or text. The command execution instructs the shell to replace one string with another. 
 
-However, the unlias command deletes an existing alias
+However, the unlias command deletes an existing alias.
 
 ![alias, unalias command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/993afae4-7dfa-4631-afc9-f38c9f8e1ce7)
+
+SU COMMAND
+
+The su command, which stands for "substitute user" or "switch user," is used to change the user identity and execute commands with the privileges of a different user. This command is useful for accessing the system using the GUI (Graphical User Interface) display manager whne the root user is unavailable.
+
+![su command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/9bf2d746-cfe6-4052-9bc9-2c570cd8d83a)
+
+HTOP COMMAND
+
+htop command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. It provides a visual representation of system resources, such as CPU, memory, and processes, in a user-friendly and customizable format.
+
+In contrast to top command, htop is a more recent program that has numerous advantages over it. Htop provides visual information regarding processor, memory, and swap utilization in addition to supporting mouse operation and using color in its output. Along with printing complete command lines for processes, htop also provides vertical and horizontal scrolling for processes and command lines, respectively.
+
+![htop command m](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/a55c6a8d-d94d-4234-8138-8df1172ff8ae)
+
+
 
 
 
