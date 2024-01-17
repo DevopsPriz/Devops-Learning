@@ -20,11 +20,19 @@ PWD COMMAND
 
 pwd which stands for print working directory, shows the name of the directory you are currently in. To retrieve the entire current path, simply enter pwd, which begins with a forward slash (/). 
 
+"pwd"
+
 ![pwd](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/6fba4ed9-e51d-4180-aa94-381e12865c3f)
+
+
 
 CD COMMAND
 
 cd stands for change directory, enables changing of directories in Linux. 
+
+To change to a specific directory:
+
+"cd Devops_Folder"
 
 ![cd command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/aed968f1-bfaa-4689-a24b-667da4777932)
 
@@ -39,6 +47,8 @@ cd - moves to your previous directory
 LS COMMAND
 
 The command "ls," which stands for "list," is used for displaying the files and folders in a given location. It displays a directory's entire contents.
+
+To view the content of a directory while you are in it, just type ls like this, for example:
 
 ![ls command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/53006c55-3790-43a7-8862-09828ee26d05)
 
@@ -56,6 +66,8 @@ CAT COMMAND
 
 Concatenate, or cat for short, lists, combines, and writes file contents to the standard output. It is one of the most frequently used Linux commands. 
 
+Type cat, the file name, and the extension to launch the command.
+
 "cat Devops"
 
 ![cat command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/0695799b-8653-4544-ae68-7ff4c0eead24)
@@ -68,9 +80,16 @@ Two files can also be merged and stored as output in a third file.
 
 CP COMMAND
 
-The command cp, which stands for copy, can be used copy files or directories from one place to another
+The command cp, which stands for copy, can be used copy files or directories from one place to another. The basic syntax:
 
+"cp (options) source destination"
 
+- source: the directory or file you wish to copy
+- destination: Where the copied file(s) or directory would be placed.
+
+To copy a file to another location
+
+cp new_file Desktop/
 
 ![cp command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/1127b8bf-0158-424d-8e53-8e4a9b02b6f3)
 
