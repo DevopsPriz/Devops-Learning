@@ -24,7 +24,12 @@ pwd which stands for print working directory, shows the name of the directory yo
 
 ![pwd](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/6fba4ed9-e51d-4180-aa94-381e12865c3f)
 
+I has two acceptable options:
 
+* -L: Display the logical current working directory
+* -P: Display the physical current working directory
+
+![pwd -L command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/4437a548-21dd-4791-a663-8fb043ad652a)
 
 CD COMMAND
 
@@ -89,7 +94,7 @@ The command cp, which stands for copy, can be used copy files or directories fro
 
 To copy a file to another location
 
-cp new_file Desktop/
+"cp new_file Desktop/"
 
 ![cp command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/1127b8bf-0158-424d-8e53-8e4a9b02b6f3)
 
@@ -98,6 +103,13 @@ MV COMMAND
 Move, which is short for "mv," is used to move and rename directories and files.
 Be aware that: when it is executed, it does not yield an output.
 
+The syntax:
+Simply type mv followed by the filename and the destination directory. Example:
+"mv new_file Devops_Folder/"
+
+You can also use the mv command to rename a file. Example:
+"mv new_file new_file1"
+
 ![mv command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/18e2b22c-3b02-41aa-b46b-e91f1c4d83cf)
 
 MKDIR COMMAND
@@ -105,6 +117,12 @@ MKDIR COMMAND
 The command "mkdir," which stands for "make directory," can be used to create one or more directories at once and set their respective permissions.
 
 Keep in mind that: in order to avoid receiving a permission denied error, the user running this command needs to have the ability to create new folders in the parent directory.
+
+The syntax:
+mkdir (option) directory_name
+
+For example:
+
 
 ![mkdir command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/c9a54f4d-6a67-48c7-b80b-fd128c522c63)
 
