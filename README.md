@@ -28,11 +28,29 @@ cd stands for change directory, enables changing of directories in Linux.
 
 ![cd command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/aed968f1-bfaa-4689-a24b-667da4777932)
 
+Some shortcuts can help during directory navigation:
+
+cd .. moves one directory up
+
+cd - moves to your previous directory
+
+![Cd command_1](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/63b9fa4c-a014-44f3-9a38-7bfdf6a92911)
+
 LS COMMAND
 
 The command "ls," which stands for "list," is used for displaying the files and folders in a given location. It displays a directory's entire contents.
 
 ![ls command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/53006c55-3790-43a7-8862-09828ee26d05)
+
+The ls -R command can also be used to list every file inside the subdirectories.
+
+![ls -R](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/8ee01d59-6461-4232-b237-93ee1ebed990)
+
+The ls -a command can be used to show hidden files in addition to visible ones.
+
+The ls -lh command can be used to show files in easily readable formats such as MB and GB
+
+![ls -a, ls -lh command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/de069be5-413b-4ece-ae55-3274f1d1947d)
 
 CAT COMMAND
 
