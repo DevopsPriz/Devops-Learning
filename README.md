@@ -56,11 +56,21 @@ CAT COMMAND
 
 Concatenate, or cat for short, lists, combines, and writes file contents to the standard output. It is one of the most frequently used Linux commands. 
 
+"cat Devops"
+
 ![cat command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/0695799b-8653-4544-ae68-7ff4c0eead24)
+
+Two files can also be merged and stored as output in a third file.
+
+"cat new_file2 cat new_file3 > mergedfile"
+
+![cat merge command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/1a8487c1-813c-46ae-8488-22c72e657adf)
 
 CP COMMAND
 
 The command cp, which stands for copy, can be used copy files or directories from one place to another
+
+
 
 ![cp command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/1127b8bf-0158-424d-8e53-8e4a9b02b6f3)
 
