@@ -201,6 +201,8 @@ The du command is used to estimate the disk space used by files and directories.
 
 You can run this command to determine which system part uses storage excessively. 
 
+
+
 ![du command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/168155ed-ad60-493f-9273-ee2eb890325c)
 
 HEAD COMMAND
