@@ -143,19 +143,41 @@ RM COMMAND
 
 Files within a directory can be removed using this command.
 
+This can be used to delete files within a directory.
+
+For example: "rm new_file2 new_file3 new_file4"
+
 ![rm commands](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/9c022ff7-e5e3-4b9a-9d10-dabf98323dfc)
+
+Some appropriate options that you could include are:
+
+-i: prompts system confirmation before deleting a file.
+-f: allows the system to remove without a confirmation.
+-r: deletes files and directories recursively.
 
 TOUCH COMMAND
 
 The touch command allows the user to create an empty file or generate and modify a timestamp in the Linux Command Line.
 
-![touch command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/5d4bf0a8-cbac-4582-997b-97383428700c)
+Create an html file named index.html in the Desktop directory
+
+![touch command 2](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/071e7802-ad84-4d0d-95a1-c55c9f03f2ad)
 
 LOCATE COMMAND
 
 The locate command is used to search for a file or a directory.
 
-![locate command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/b8cd04d3-f25b-4756-af38-c68a1e919123)
+Adding the -i argument will turn off case sensitivity, to enable the search for files even if you don't remember its exact name.
+
+The command enables quick location of a file path or a directory based on its name. 
+
+Syntax: locate filename
+The command above searches for the given filename and prints the path or paths that contain it.
+
+Adding the -i option, makes the search case-insensitive.
+Syntax: locate -i filename
+
+![locate command 1](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/6f5e2c7b-2779-45e0-aabf-872d0ec68d8e)
 
 FIND COMMAND
 
