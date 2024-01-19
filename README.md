@@ -123,6 +123,8 @@ mkdir (option) directory_name
 
 For example:
 
+1.  Create a directory "Devops_learn"
+2.  Create a directory called "class" inside Devops_ learn
 
 ![mkdir command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/c9a54f4d-6a67-48c7-b80b-fd128c522c63)
 
@@ -131,6 +133,9 @@ RMDIR COMMAND
 The command rmdir, which stands for remove directory, is used to permanently erase an empty directory.
 
 Keep in mind that: sudo rights in the parent directory are required for the user executing this command to achieve this.
+
+For example: To remove an empty subdirectory named class.
+"rmdir Devops_learn/class" was used.
 
 ![rmdir command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/7b26d58d-ad91-403f-8608-bc0426e99abe)
 
