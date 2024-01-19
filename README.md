@@ -163,7 +163,7 @@ Create an html file named index.html in the Desktop directory
 
 ![touch command 2](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/071e7802-ad84-4d0d-95a1-c55c9f03f2ad)
 
-LOCATE COMMAND
+LOCATE COMMAND 
 
 The locate command is used to search for a file or a directory.
 
