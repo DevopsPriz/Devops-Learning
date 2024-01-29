@@ -325,7 +325,7 @@ The name `man` stands for "manual", it is used to display the manual pages (docu
 The `echo` command is used to display text or variables to the terminal. The text or value of a variable is output to the standard output using this simple command.
 
 ![Alt text](<echo command.png>)
-
+cd
 `ZIP, UNZIP` COMMANNDS
 
 The `zip, unzip` commands are used for compressing and decompressing files and directories. These commands create and extract ZIP archives files respectively.
