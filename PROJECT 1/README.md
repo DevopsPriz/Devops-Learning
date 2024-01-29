@@ -1,10 +1,9 @@
-# Devops-Learning
+# FILE MANIPULATIONS USING LINUX
 
 Learning basic commands on Linux
 
-FILE MANIPULATION USING LINUX
 
-`SUDO` COMMAND 
+## `SUDO` COMMAND 
 
 In Unix-like operating systems, the command `sudo`, which stands for "superuser do," is used to grant a permitted user the ability to execute commands as the super user. As a result, it's employed for tasks requiring root or administrative access.
 
@@ -16,7 +15,7 @@ The installed packages on your system can be upgraded to the their latest versio
 
 ![Sudo command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/ef1dfefd-f30c-4180-8395-00fd2dd4a1f8)
 
-`PWD` COMMAND
+## `PWD` COMMAND
 
 `pwd` which stands for print working directory, shows the name of the directory you are currently in. To retrieve the entire current path, simply enter pwd, which begins with a forward slash (/). 
 
@@ -31,7 +30,7 @@ I has two acceptable options:
 
 ![pwd -L command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/4437a548-21dd-4791-a663-8fb043ad652a)
 
-`CD` COMMAND
+## `CD` COMMAND
 
 `cd` stands for change directory, enables changing of directories in Linux. 
 
@@ -49,7 +48,7 @@ Some shortcuts can help during directory navigation:
 
 ![Cd command_1](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/63b9fa4c-a014-44f3-9a38-7bfdf6a92911)
 
-`LS` COMMAND
+## `LS` COMMAND
 
 The command `ls`, which stands for "list," is used for displaying the files and folders in a given location. It displays a directory's entire contents.
 
@@ -67,7 +66,7 @@ The `ls -lh` command can be used to show files in easily readable formats such a
 
 ![ls -a, ls -lh command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/de069be5-413b-4ece-ae55-3274f1d1947d)
 
-`CAT` COMMAND
+## `CAT` COMMAND
 
 Concatenate, or `cat` for short, lists, combines, and writes file contents to the standard output. It is one of the most frequently used Linux commands. 
 
@@ -83,7 +82,7 @@ Two files can also be merged and stored as output in a third file.
 
 ![cat merge command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/1a8487c1-813c-46ae-8488-22c72e657adf)
 
-`CP` COMMAND
+## `CP` COMMAND
 
 The command `cp`, which stands for copy, can be used copy files or directories from one place to another. The basic syntax:
 
@@ -98,7 +97,7 @@ To copy a file to another location
 
 ![cp command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/1127b8bf-0158-424d-8e53-8e4a9b02b6f3)
 
-`MV` COMMAND
+## `MV` COMMAND
 
 Move, which is short for `mv`, is used to move and rename directories and files.
 Be aware that: when it is executed, it does not yield an output.
@@ -112,7 +111,7 @@ You can also use the mv command to rename a file. Example:
 
 ![mv command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/18e2b22c-3b02-41aa-b46b-e91f1c4d83cf)
 
-`MKDIR` COMMAND
+## `MKDIR` COMMAND
 
 The command `mkdir`, which stands for "make directory," can be used to create one or more directories at once and set their respective permissions.
 
@@ -128,7 +127,7 @@ For example:
 
 ![mkdir command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/c9a54f4d-6a67-48c7-b80b-fd128c522c63)
 
-`RMDIR` COMMAND  
+## `RMDIR` COMMAND  
 
 The command `rmdir`, which stands for remove directory, is used to permanently erase an empty directory.
 
@@ -139,7 +138,7 @@ For example: To remove an empty subdirectory named class.
 
 ![rmdir command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/7b26d58d-ad91-403f-8608-bc0426e99abe)
 
-`RM` COMMAND
+## `RM` COMMAND
 
 Files within a directory can be removed using this command.
 
@@ -155,7 +154,7 @@ Some appropriate options that you could include are:
 -f: allows the system to remove without a confirmation.
 -r: deletes files and directories recursively.
 
-`TOUCH` COMMAND
+## `TOUCH` COMMAND
 
 The `touch` command allows the user to create an empty file or generate and modify a timestamp in the Linux Command Line.
 
@@ -163,7 +162,7 @@ Create an html file named index.html in the Desktop directory
 
 ![touch command 2](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/071e7802-ad84-4d0d-95a1-c55c9f03f2ad)
 
-`LOCATE` COMMAND 
+## `LOCATE` COMMAND 
 
 The `locate` command is used to search for a file or a directory.
 
@@ -182,7 +181,7 @@ Syntax:
 
 ![locate command 1](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/6f5e2c7b-2779-45e0-aabf-872d0ec68d8e)
 
-`FIND` COMMAND
+## `FIND` COMMAND
 
 The `find` command is used for searching and locating files and directories based on various criteria.
 
@@ -190,7 +189,7 @@ The `find` command is used for searching and locating files and directories base
 
 GREP COMMAND
 
-`DF` COMMAND
+## `DF` COMMAND
 
 The `df` command used to display information about the amount of disk space available and used on file systems.
 
@@ -198,7 +197,7 @@ The `df -h` option displays the current directory's system disk space usage in a
 
 ![df command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/8025e18f-ccdf-49e4-954b-8d95fc5aa5ab)
 
-`DU` COMMAND
+## `DU` COMMAND
 
 The `du` command is used to estimate the disk space used by files and directories.
 
@@ -207,7 +206,7 @@ You can run this command to determine which system part uses storage excessively
 
 ![du command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/168155ed-ad60-493f-9273-ee2eb890325c)
 
-`HEAD` COMMAND
+## `HEAD` COMMAND
 
 The `head` command is used to display the first lines of a text.
 
@@ -215,7 +214,7 @@ For example: `head Devops`
 
 ![head command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/5cb0b669-4fc8-459e-8bd9-a214391c3587)
 
-`TAIL` COMMAND
+## `TAIL` COMMAND
 
 The `tail` command is used to display the last part lines of a file.
 
@@ -223,7 +222,7 @@ For example: `tail Devops`
 
 ![tail command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/d78e87cf-9d80-4be5-8f30-27f3d03e2472)
 
-`DIFF` COMMAND
+## `DIFF` COMMAND
 
 The command `diff` which stands for "difference,"is used to compare two files and display the differences between them after analyzing them.
 
@@ -231,7 +230,7 @@ For example: `diff Devops new_file1`
 
 ![diff command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/ea740352-827b-4fc0-86eb-32adcdf6d3df)
 
-`TAR` COMMAND
+## `TAR` COMMAND
 
 The command `tar` stands for "tape archive", archives mutliple files into a TAR file - a common Linux format similar to ZIP, with optional compression.
 
@@ -239,9 +238,9 @@ For example: ` tar -cvf newarchive. tar new_file2 new_file3`
 
 ![tar command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/3b2764c5-da6d-44e3-815a-51f4438c38b8)
 
-FILE PERMISSIONS AND OWNERSHIP
+# FILE PERMISSIONS AND OWNERSHIP
 
-CHMOD COMMAND
+## CHMOD COMMAND
 
 The name `chmod` stands for "change mode". The `chmod` command is used the `execute`, `read` and `write`permissions of a directory or file. In Linux, every file is linked to three (3) user classes: group members, owners, and others.
 
@@ -252,7 +251,7 @@ For example, the owner is the only one with full permission to change notes.txt.
 
 ![Alt text](<Chmod command.png>)
 
-CHOWN COMMAND
+## CHOWN COMMAND
 
 The `chown` command allows the change of ownership of file, directory, or symbolic link to a specified username. 
 
@@ -263,7 +262,7 @@ For example, you want to make vboxuser the owner of Devops_learn by using the sy
 
 ![Alt text](<chown command.png>)
 
-`JOBS` COMMAND
+## `JOBS` COMMAND
 
 The `jobs` command will display all the running processes along with their statuses. 
 
@@ -271,7 +270,7 @@ For example: `jobs -n`
 
 ![jobs command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/c9d2911c-0b3b-4abe-b60e-aabd8b8377cd)
 
-`KILL` COMMAND
+## `KILL` COMMAND
 
 The `kill` command is used to terminate or send signals to processes manually. It will signal misbehaving applications and instruct them to close their processes. 
 
@@ -279,7 +278,7 @@ For example: `kill -l`
 
 ![kill command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/88262b7f-5a8f-46e9-a47a-482d89cdea81)
 
-`PING` COMMAND
+## `PING` COMMAND
 
 The `ping` command is used to check whether a network or a server is reachable. Additionally, it can be used to troubleshoot various connectivity issues.
 
@@ -287,19 +286,19 @@ For example: `ping goggle.com` was used to know the connectivity to google and i
 
 ![ping command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/20d40148-9df6-4a27-a5c1-df324271ccf9)
 
-`WGET` COMMAND
+## `WGET` COMMAND
 
 The `wget` command is used for downloading files from the internet in Unix-like operating systems, including Linux. It can retrieve files from web servers and FTP servers and supports the HTTP, HTTPS, and FTP protocols.
 
 ![wget command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/ef01a925-cc85-4930-a525-3ee16eae6408)
 
-`UNAME` COMMAND
+## `UNAME` COMMAND
 
 The `uname` command will give detailed information about the Linux system and hardware, inclusive of the machine name, operating system, and kernel.
 
 ![uname commnad](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/dc2b2155-e59e-4e5f-a968-407e963dfaa3)
 
-`TOP` COMMAND
+## `TOP` COMMAND
 
 In Linux and macOS, as well as other Unix-like operating systems, the `top` command is a real-time system monitoring tool that offers an interactive, dynamic view of system resource usage.It displays a list of processes and their resource utilization, including CPU, memory, and swap usage. 
 
@@ -307,26 +306,26 @@ Also, the `top`command helps to identify and terminate processes that may use to
 
 ![top command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/6878fff7-6827-4359-9728-7e6818fdce7a)
 
-`HISTORY` COMMAND
+## `HISTORY` COMMAND
 
 A list of commands that the user has previously typed into the terminal is shown by the `history` command. It offers a history of recently executed commands, including line numbers, which is helpful for recalling and re-executing commands again. 
 
 ![history command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/a106388b-c494-41f4-adc8-f0692a431efd)
 
-`MAN` COMMAND
+## `MAN` COMMAND
 
 The `man` command
 The name `man` stands for "manual", it is used to display the manual pages (documentation) for various commands, utilities, and system functions.
 
 ![man command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/c69b833d-9226-463a-8af5-221b4e3e972b)
 
-`ECHO` COMMAND
+## `ECHO` COMMAND
 
 The `echo` command is used to display text or variables to the terminal. The text or value of a variable is output to the standard output using this simple command.
 
 ![Alt text](<echo command.png>)
-cd
-`ZIP, UNZIP` COMMANNDS
+
+## `ZIP, UNZIP` COMMANNDS
 
 The `zip, unzip` commands are used for compressing and decompressing files and directories. These commands create and extract ZIP archives files respectively.
 
@@ -334,7 +333,7 @@ For example: `zip archive new_file3`
 
 ![zip, unzip command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/e532c77b-3497-4511-ac53-dfdbb00dce78)
 
-HOSTNAME COMMAND
+## `HOSTNAME` COMMAND
 
 The `hostname` command is used for setting or displaying the system's hostname. 
 
@@ -342,7 +341,7 @@ For example: `hostname`
 
 ![hostname](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/80efba3d-f4ac-4304-99e1-5cdf16d64cea)
 
-`USERADD, USERDEL` COMMANDS
+## `USERADD, USERDEL` COMMANDS
 
 Linux is a multi-user system, which means that two or more persons can use it simultaneously. These commands are used to manage user accounts. 
 
@@ -350,19 +349,19 @@ The `useradd` command is used to create a new user account.
 
 The `userdel` command is used to delete a user account. 
 
-`APT-GET` COMMAND
+## `APT-GET` COMMAND
 
 The`apt-get` is a command line tool for handling Advanced Package Tool (APT) libraries in Linux. The command allows retrieval of information and bundles from authenticated sources to manage, update, remove, and install software and its dependencies on a system. 
 
 ![apt-get command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/b332eda1-1614-43a6-9682-688cb1067ea0)
 
-`NANO` COMMAND
+## `NANO` COMMAND
 
 The `nano` command for Unix-like operating systems, including Linux, used to edit and manage files via a text editor. The command denotes keywords and can work with most languages. 
 
 ![nano command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/430c5381-8c58-4793-9e2d-9853aab0ab47)
 
-`VI` COMMAND
+## `VI` COMMAND
 
 The `vi` command is a text editor that functions in two different modes: insert and command.
 
@@ -370,7 +369,7 @@ The insert is used to edit and create a text file while, the command performs op
 
 ![vi command 2](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/d2cf1753-85ce-4603-b568-3fdd076f6aa2)
 
-`ALIAS, UNALIAS COMMAND` 
+## `ALIAS, UNALIAS COMMAND` 
 
 The `alias` command allows the creation of a shortcut with the same functionality as a command, file name or text. The command execution instructs the shell to replace one string with another. 
 
@@ -382,7 +381,7 @@ For example: `unalias string`
 
 ![alias, unalias command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/993afae4-7dfa-4631-afc9-f38c9f8e1ce7)
 
-`SU` COMMAND
+## `SU` COMMAND
 
 The `su` command, which stands for "substitute user" or "switch user," is used to change the user identity and execute commands with the privileges of a different user. This command is useful for accessing the system using the GUI (Graphical User Interface) display manager whne the root user is unavailable.
 
@@ -390,7 +389,7 @@ For example: `whoami`
 
 ![su command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/9bf2d746-cfe6-4052-9bc9-2c570cd8d83a)
 
-`HTOP` COMMAND
+## `HTOP` COMMAND
 
 `htop` command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. 
 
@@ -402,12 +401,10 @@ Along with printing complete command lines for processes, htop also provides ver
 
 ![htop command m](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/a55c6a8d-d94d-4234-8138-8df1172ff8ae)
 
-`PS` COMMAND
+## `PS` COMMAND
 
 The `ps` command in Unix-like operating systems, such as Linux and macOS, is used to display information regarding the active processes that are running on the system.
 
 It offers a snapshot of the active processes, displaying information about them like PIDs (process IDs), TTYs (type of terminal), TIMEs (running time), and CMDs (commands that start the processes). The virtual files in the /proc file system are where the static results are sourced from.
 
 ![ps command](https://github.com/DevopsPriz/Devops-Learning/assets/151751244/13891a47-8619-482c-9704-4f6574b5a2a2)
-
-
