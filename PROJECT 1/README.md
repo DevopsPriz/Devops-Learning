@@ -249,7 +249,7 @@ The basic syntax is:
 
 For example, the owner is the only one with full permission to change notes.txt. Group members and others can be allowed to read, write and execute the file by using the syntax: `chmod 777 Devops_learn`
 
-![Alt text](<Chmod command.png>)
+![Alt text](<images/Chmod command.png>)
 
 ## CHOWN COMMAND
 
@@ -260,7 +260,7 @@ The basic syntax is:
 
 For example, you want to make vboxuser the owner of Devops_learn by using the syntax: `chown vboxuser Devops_learn`
 
-![Alt text](<chown command.png>)
+![Alt text](<images/chown command.png>)
 
 ## `JOBS` COMMAND
 
@@ -323,7 +323,7 @@ The name `man` stands for "manual", it is used to display the manual pages (docu
 
 The `echo` command is used to display text or variables to the terminal. The text or value of a variable is output to the standard output using this simple command.
 
-![Alt text](<echo command.png>)
+![Alt text](<images/echo command.png>)
 
 ## `ZIP, UNZIP` COMMANNDS
 
