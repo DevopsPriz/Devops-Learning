@@ -61,7 +61,6 @@ cd downloads
 
 ![alt text](<images/cd downloads.png>)
 
-
 2. In this working directory enter the command:
 
 ```Bash
@@ -70,7 +69,6 @@ cd downloads
 ```
 
 ![alt text](<images/Instance connection to terminal.png>)
-
 
 This will establish connection between the two computers using the copied the `ssh` protocol to establish connectivity between computers.
 
@@ -81,17 +79,14 @@ Update a list of packages in package manager using the command:
 ```Bash
 sudo apt update
 ```
-
-![alt text](<sudo apt update.png>)
-
+![alt text](<images/sudo apt update.png>)
 
 Use the command to install Apache2 package:
 
 ```Bash
 sudo apt install apache2
 ```
-
-![alt text](<install apache2.png>)
+![alt text](<images/install apache2.png>)
 
 Verify that Apache2 is running as a Service in our operating System, use the command:
 
@@ -101,11 +96,11 @@ sudo systemctl status apache2
 
 Apache2 server is actively running
 
-![alt text](<apache2 status.png>)
+![alt text](<images/apache2 status.png>)
 
 Open the TCP port 80 which is the default port on your instance to recieve traffic by our Web Server. 
 
-![alt text](<Inbound edited rules.png>)
+![alt text](<images/Inbound edited rules.png>)
 
 Check how to access the server locally on our Ubuntu shell by running the command:
 
@@ -113,11 +108,11 @@ Check how to access the server locally on our Ubuntu shell by running the comman
 curl localhost
 ```
 
-![alt text](<curl localhost.png>)
+![alt text](<images/curl localhost.png>)
 
 Test how Apache HTTP server responds to request from the internet. Open a web browser and access the url.
 
-![alt text](<apache2 default.png>)
+![alt text](<images/apache2 default.png>)
 
 This means my web server is properly installed and accessible. 
 
@@ -131,7 +126,7 @@ Install MySQL on the ubuntu server using the command:
 sudo apt install mysql-server
 ```
 
-![alt text](<mysql-server installation.png>)
+![alt text](<images/mysql-server installation.png>)
 
 Log in to the MySQL console using the command:
 
@@ -141,7 +136,7 @@ sudo mysql
 
 I am connected to the MySQL server as the administrative database user root, which is inferred by the use of sudo when running this command. 
 
-![alt text](<sudo mysql.png>)
+![alt text](<images/sudo mysql.png>)
 
 A security script that comes pre-installed with MySQL is recommended.  
 
@@ -158,17 +153,16 @@ Exit the MySQL shell with:
 mysql> exit
 ```
 
-![alt text](<default authetication method.png>)
+![alt text](<images/default authetication method.png>)
 
 Commence the interactive script by running the command:
 
 ```Bash
 sudo mysql_secure_installation
 ```
+![alt text](<images/validate sql password.png>)
 
-![alt text](<validate sql password.png>)
-
-![alt text](<validate sql password contd.png>)
+![alt text](<images/validate sql password contd.png>)
 
 ### INSTALLING PHP
 
@@ -186,7 +180,7 @@ Install these three packages at once, run the command:
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
-![alt text](<php installment.png>)
+![alt text](<images/php installment.png>)
 
 After installation, run the command to confirm the PHP version:
 
@@ -194,7 +188,7 @@ After installation, run the command to confirm the PHP version:
 php -v
 ```
 
-![alt text](php-version.png)
+![alt text](images/php-version.png)
 
 The LAMP stack is fully installed and operational. 
 
@@ -214,7 +208,7 @@ Assign ownership of the directory with the `$USER` environment varaible, which w
 sudo chown -R $USER:$USER /var/www/projectlamp
 ```
 
-![alt text](<mkdir Projectlamp.png>)
+![alt text](<images/mkdir Projectlamp.png>)
 
 Create and open a new configuration file in Apache's `site-available` directory using your preferred command-line editor. We will be using `vi` or `vim`. use the command 
 
@@ -222,7 +216,7 @@ Create and open a new configuration file in Apache's `site-available` directory 
 sudo vi /etc/apache2/sites-available/projectlamp.conf
 ```
 
-![alt text](<apache2 (vi) sites-available.png>)
+![alt text](<images/apache2 (vi) sites-available.png>)
 
 Use the `ls` command to show the new file in the sites-available directory.
 
@@ -230,7 +224,7 @@ Use the `ls` command to show the new file in the sites-available directory.
 sudo ls /etc/apache2/sites-available
 ```
 
-![alt text](<apache2 (vi) sites-available.png>)
+![alt text](<images/apache2 (vi) sites-available.png>)
 
 Use a2ensite command to enable the new virtual host. Use the commmand:
 
@@ -250,7 +244,7 @@ Reload Apache so that these changes take effect.
 sudo systemctl reload apache2
 ```
 
-![alt text](<enable and disable server.png>)
+![alt text](<images/enable and disable server.png>)
 
 The new website is active, but web root '/var/www/projectlamp' is still empty. Create an index.html file in that location to test the virtual host is working as expected. Use the command: 
 
@@ -263,7 +257,9 @@ Run the command:
 sudo echo 'Hello LAMP from host' 'with public IP' $(hostname -i) > /var/www/projectlamp/index.html
 ```
 
-![alt text](<Create index html.png>)
+![alt text](<images/Create index html.png>)
+
+![alt text](<images/var html directory.png>)
 
 ### CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
 
@@ -296,7 +292,7 @@ phpinfo();
 ```
 Save and close the file, refresh the web page for update.
 
-![alt text](<php vim (enable php on website).png>)
+ ![alt text](<images/php vim (enable php on website).png>)
 
  After checking for relevant information about your PHP server, it is best practice to remove the created file due to sensitive information about your PHP environment and Ubuntu server. 
 
@@ -307,6 +303,6 @@ sudo rm /var/www/projectlamp/index.php
 ```
 Refresh the page.
 
-![alt text](<apache2 virtual host.png>)
+![alt text](<images/apache2 virtual host.png>)
 
 The page is actively running.
