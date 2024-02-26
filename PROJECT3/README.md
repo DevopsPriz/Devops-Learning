@@ -59,7 +59,8 @@ Before installation, I authenticate my laptop to enable access to my server by r
 cd downloads
 ```
 
-![alt text](<cd downloads.png>)
+![alt text](<images/cd downloads.png>)
+
 
 2. In this working directory enter the command:
 
@@ -68,7 +69,8 @@ cd downloads
 
 ```
 
-![alt text](<Instance connection to terminal.png>)
+![alt text](<images/Instance connection to terminal.png>)
+
 
 This will establish connection between the two computers using the copied the `ssh` protocol to establish connectivity between computers.
 
